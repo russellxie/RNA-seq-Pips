@@ -23,30 +23,6 @@ mkdir ./bam_files/
 
 foreach sample (\
 		PZ341_S15\
-		PZ340_S14\
-		PZ339_S13\
-#		PZ338_S12\
-#		PZ337_S11\
-#		PZ336_S10\
-#		PZ335_S9\
-#		PZ334_S8\
-#		PZ333_S7\
-#		PZ332_S6\
-#		PZ331_S5\
-#		PZ330_S4\
-#		PZ329_S3\
-#		PZ328_S2\
-#		PZ327_S1\
-#		PZ326_S23\
-#		PZ325_S22\
-#		PZ324_S21\
-#		PZ323_S20\
-#		PZ322_S19\
-#		PZ321_S18\
-#		PZ320_S17\
-#		PZ319_S16\
-#		PZ201_S25\
-#		PZ200_S24\
                )
    echo $sample
   foreach lane (L001 L002 L003 L004)
